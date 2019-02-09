@@ -23,10 +23,12 @@ if($args.Count -eq 1)
     {
       git push;
     }
-}elseif($args.Count -gt 1)
+}
+elseif($args.Count -gt 1)
 {
     echo "É necessário informar a mensagem entre aspas"
-}else
+}
+else
 {
     echo "É necessário informar uma mensagem para efetuar o commit";
 }
