@@ -17,11 +17,11 @@ if($args.Count -eq 1)
 
     git commit -m $mensagemCommit;
 
-    $resp = read-host "Deseja efetuar o pull? (S/N)";
+    $resp = read-host "Deseja efetuar o push? (S/N)";
 
     if($resp -eq "s" -or $resp -eq "S")
     {
-      git pull;
+      git push;
     }
 }elseif($args.Count -gt 1)
 {
