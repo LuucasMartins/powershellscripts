@@ -24,7 +24,7 @@ foreach($arg in $args)
         $imagesDelete = $true;
     }
 
-    if($arg -eq "rst")
+    if($arg -eq "-rst")
     {
         $containersRestart = $true;
     }
